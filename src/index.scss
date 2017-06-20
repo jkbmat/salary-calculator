@@ -1,0 +1,91 @@
+@import "import.scss";
+
+html {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  font: 14px 'Rubik', sans-serif;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.24) 0%, rgba(0,0,0,0.05) 88px, rgba(0,0,0,0) 200px) repeat-x;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+.btn-default {
+  background: transparent;
+  border-radius: 3px;
+  border-color: $gray;
+
+  &:hover, &:active, &:focus {
+    border-color: $gray-darker;
+    background: transparent;
+  }
+}
+
+.link {
+  cursor: pointer;
+  transition: color 0.3s;
+
+  &:hover {
+    color: #333;
+  }
+}
+
+.red {
+  color: $red;
+}
+
+.green {
+  color: $green;
+}
+
+.flex-grow--first {
+  display: flex;
+
+  & > :first-child {
+    flex-grow: 1;
+  }
+
+  & > :not(:first-child) {
+    flex-shrink: 1;
+  }
+}
+
+.separator--top {
+  padding-top: 1em;
+  margin-top: 1em;
+  border-top: 1px solid $gray;
+  height: 100%;
+}
+
+.separator--bottom {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid $gray;
+  height: 100%;
+}
+
+.flex-grow--first {
+  display: flex;
+
+  & > :first-child {
+    flex-grow: 1;
+  }
+
+  & > :not(:first-child) {
+    flex-shrink: 1;
+  }
+}

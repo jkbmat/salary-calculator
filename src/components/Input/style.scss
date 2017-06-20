@@ -1,0 +1,15 @@
+@import "import.scss";
+
+.Input {
+    display: block;
+    padding: 5px;
+    border: 1px solid $gray;
+    border-radius: 3px;
+    outline: none;
+    width: 100%;
+    height: 100%;
+
+    &:hover, &:focus {
+        border-color: $gray-darker;
+    }
+}

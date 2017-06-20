@@ -1,0 +1,45 @@
+@import "import.scss";
+
+.day {
+  max-width: 165px;
+  min-width: 100px;
+  border-radius: 3px;
+  border: 1px solid $gray;
+  transition: all $speed;
+
+  &--weekend {
+    background-color: $green-light
+  }
+
+  &__header {
+    background: $gray;
+    padding: 5px 10px;
+  }
+
+  &__contents {
+    padding: 10px;
+  }
+
+  &__time {
+    display: flex;
+
+    input {
+      flex-grow: 1;
+    }
+
+    .time__separator {
+      margin: 0 10px;
+    }
+  }
+
+  .day__isWeekend {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 10px;
+
+    .isWeekend__checkbox {
+      margin-left: 10px;
+    }
+  }
+}

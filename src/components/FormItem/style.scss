@@ -1,0 +1,23 @@
+@import "import.scss";
+
+.FormItem {
+    margin-bottom: 10px;
+    position: relative;
+    height: 2.3em;
+
+    .FormLabel {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: 2.3em;
+
+        &__label {
+            margin: 0;
+        }
+    }
+
+    .FormInput {
+        height: 2.3em;
+        position: relative;
+    }
+}

@@ -1,0 +1,17 @@
+.EditPeriod .tab-content {
+  margin-top: 15px; }
+  .EditPeriod .tab-content .FormItem:last-child {
+    margin-bottom: 0; }
+
+.EditPeriod .days {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: -5px; }
+  .EditPeriod .days > * {
+    margin: 5px;
+    flex-grow: 1; }
+  .EditPeriod .days button {
+    flex-shrink: 1;
+    flex-grow: 0; }

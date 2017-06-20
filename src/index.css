@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+body {
+  margin: 0;
+  font: 14px 'Rubik', sans-serif;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.05) 88px, transparent 200px) repeat-x;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+* {
+  box-sizing: border-box;
+  outline: none !important; }
+
+.btn-default {
+  background: transparent;
+  border-radius: 3px;
+  border-color: #bbb; }
+  .btn-default:hover, .btn-default:active, .btn-default:focus {
+    border-color: #777;
+    background: transparent; }
+
+.link {
+  cursor: pointer;
+  transition: color 0.3s; }
+  .link:hover {
+    color: #333; }
+
+.red {
+  color: #aa2835; }
+
+.green {
+  color: #37ae28; }
+
+.flex-grow--first {
+  display: flex; }
+  .flex-grow--first > :first-child {
+    flex-grow: 1; }
+  .flex-grow--first > :not(:first-child) {
+    flex-shrink: 1; }
+
+.separator--top {
+  padding-top: 1em;
+  margin-top: 1em;
+  border-top: 1px solid #bbb;
+  height: 100%; }
+
+.separator--bottom {
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #bbb;
+  height: 100%; }
+
+.flex-grow--first {
+  display: flex; }
+  .flex-grow--first > :first-child {
+    flex-grow: 1; }
+  .flex-grow--first > :not(:first-child) {
+    flex-shrink: 1; }

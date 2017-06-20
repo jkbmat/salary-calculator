@@ -1,0 +1,26 @@
+.day {
+  max-width: 165px;
+  min-width: 100px;
+  border-radius: 3px;
+  border: 1px solid #bbb;
+  transition: all 0.3s; }
+  .day--weekend {
+    background-color: #e1f7de; }
+  .day__header {
+    background: #bbb;
+    padding: 5px 10px; }
+  .day__contents {
+    padding: 10px; }
+  .day__time {
+    display: flex; }
+    .day__time input {
+      flex-grow: 1; }
+    .day__time .time__separator {
+      margin: 0 10px; }
+  .day .day__isWeekend {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 10px; }
+    .day .day__isWeekend .isWeekend__checkbox {
+      margin-left: 10px; }

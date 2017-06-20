@@ -1,0 +1,14 @@
+.FormItem {
+  margin-bottom: 10px;
+  position: relative;
+  height: 2.3em; }
+  .FormItem .FormLabel {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 2.3em; }
+    .FormItem .FormLabel__label {
+      margin: 0; }
+  .FormItem .FormInput {
+    height: 2.3em;
+    position: relative; }
